@@ -12,3 +12,8 @@ LineageOS support (unmaintained):
 [info](https://wiki.lineageos.org/devices/maguro),
 [installation](https://wiki.lineageos.org/devices/maguro/install),
 [Google apps as Open GApps](https://wiki.lineageos.org/gapps.html).
+
+Open GApps:
+[pico](https://github.com/opengapps/opengapps/wiki/Package-Comparison),
+[FAQ on devices with system partition of 1GB or less](https://github.com/opengapps/opengapps/wiki/FAQ#11-open-gapps-install-failed-with-the-message-insufficient-storage-space-available-in-system-partition-my-device-has-16gb-or-more-of-storage-available-how-can-this-be),
+[`gapps-config.txt`](https://github.com/opengapps/opengapps/wiki/Advanced-Features-and-Options#gapps-config-file-location).
