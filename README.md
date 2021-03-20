@@ -5,3 +5,5 @@ a decently up-to-date version of Android able to install apps requiring Google P
 as of Mar 2021.
 
 Specs: [GSMArena](https://www.gsmarena.com/samsung_galaxy_nexus_i9250-4219.php).
+
+Factory images: [Google, 4.3 (JWR66Y)](https://developers.google.com/android/images#yakju).
