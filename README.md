@@ -17,3 +17,8 @@ Open GApps:
 [pico](https://github.com/opengapps/opengapps/wiki/Package-Comparison),
 [FAQ on devices with system partition of 1GB or less](https://github.com/opengapps/opengapps/wiki/FAQ#11-open-gapps-install-failed-with-the-message-insufficient-storage-space-available-in-system-partition-my-device-has-16gb-or-more-of-storage-available-how-can-this-be),
 [`gapps-config.txt`](https://github.com/opengapps/opengapps/wiki/Advanced-Features-and-Options#gapps-config-file-location).
+
+Resizing the system partition at the expense of either the data partition or the cache one
+is complex,
+may require binaries usually not in recoveries (e.g. `parted`),
+may require rework when re-flashing or updating system (unclear, anecdotal evidence).
