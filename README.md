@@ -11,6 +11,10 @@ as of Mar 2021.
 ## Factory
 
 Latest image: [Google, 4.3 (JWR66Y)](https://developers.google.com/android/images#yakju).
+Includes:
+* Booloader (to be installed by `fastboot -v flash bootloader bootloader-maguro-....img`).
+* Radio (to be installed by `fastboot -v flash radio radio-maguro-....img`).
+* Boot, recovery, system, userdata (to be installed by `fastboot -v -w update image-....zip`, that also wipes userdata).
 
 ## Custom System and Recovery
 
