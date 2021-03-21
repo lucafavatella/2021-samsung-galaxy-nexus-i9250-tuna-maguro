@@ -8,7 +8,7 @@ as of Mar 2021.
 
 [GSMArena](https://www.gsmarena.com/samsung_galaxy_nexus_i9250-4219.php).
 
-## Factory
+## Install Factory Image
 
 Latest image: [Google, 4.3 (JWR66Y)](https://developers.google.com/android/images#yakju).
 Includes:
@@ -72,3 +72,28 @@ boot TWRP recovery and look for any errors
 when mounting / wiping / formatting / resizing
 any partitions / filesystems;
 depending on errors may include also creating folder.
+
+As per DivestOS documentation,
+unlock bootloader,
+flash DivestOS recovery,
+sideload DivestOS package.
+Do not sideload GApps
+(for signature verification error, rather boot TWRP - see below).
+
+Boot (not flash) TWRP recovery,
+attempt to sideload ARM pico Open GApps: will err for lack of space.
+Read the log file referred to by the error,
+create minimum `gapps-config.txt` in the same folder:
+```
+Include
+Core
+```
+Attempt to sideload ARM pico Open GApps: will err for lack of space.
+Find the largest APKs in the system partition that can be installed from F-Droid
+(e.g. FairEmail, Simple Gallery, Silence),
+and delete their folders (or move them to the data partition).
+Attempt to sideload ARM pico Open GApps: shall succeed.
+
+Lock booloader.
+
+Check that it boots.
