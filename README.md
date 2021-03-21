@@ -52,3 +52,23 @@ Resizing the system partition at the expense of either the data partition or the
 is complex,
 may require binaries usually not in recoveries (e.g. `parted`),
 may require rework when re-flashing or updating system (unclear, anecdotal evidence).
+
+## Install decently up-to-date Android
+
+Wipe / format device at will.
+For each partition:
+* Power off.
+* Boot to bootloader
+  by pressing volume up&down and power button.
+* Boot TWRP recovery
+  by `fastboot -v boot twrp-3.4.0-0-maguro.img`.
+* Wipe / format partition.
+
+Install factory image.
+
+Check that factory image boots.
+If it does not (e.g. glowing X logo),
+boot TWRP recovery and look for any errors
+when mounting / wiping / formatting / resizing
+any partitions / filesystems;
+depending on errors may include also creating folder.
