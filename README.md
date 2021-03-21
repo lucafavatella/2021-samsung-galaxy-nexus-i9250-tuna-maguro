@@ -4,9 +4,15 @@ This document describes how to install on Samsung Galaxy Nexus
 a decently up-to-date version of Android able to install apps requiring Google Play Store
 as of Mar 2021.
 
-Specs: [GSMArena](https://www.gsmarena.com/samsung_galaxy_nexus_i9250-4219.php).
+## Specs
 
-Factory images: [Google, 4.3 (JWR66Y)](https://developers.google.com/android/images#yakju).
+[GSMArena](https://www.gsmarena.com/samsung_galaxy_nexus_i9250-4219.php).
+
+## Factory
+
+Latest image: [Google, 4.3 (JWR66Y)](https://developers.google.com/android/images#yakju).
+
+## Custom System and Recovery
 
 [TWRP recovery](https://dl.twrp.me/maguro/) (unmaintained after 3.4.0).
 
@@ -24,6 +30,8 @@ DivestOS (unofficial fork of LineageOS) - system and recovery:
 [based on LineageOS 14.1 (based on Android 7.1)](https://divestos.org/index.php?page=devices&base=LineageOS#device-maguro),
 apparently built monthly;
 [XDA thread](https://forum.xda-developers.com/t/rom-divestos-14-1-for-maguro-toro-toroplus.4249415/).
+
+### GApps
 
 Open GApps:
 [pico](https://github.com/opengapps/opengapps/wiki/Package-Comparison),
