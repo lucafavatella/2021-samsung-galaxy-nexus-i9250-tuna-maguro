@@ -12,9 +12,15 @@ as of Mar 2021.
 
 Latest image: [Google, 4.3 (JWR66Y)](https://developers.google.com/android/images#yakju).
 Includes:
-* Booloader (to be installed by `fastboot -v flash bootloader bootloader-maguro-....img`).
-* Radio (to be installed by `fastboot -v flash radio radio-maguro-....img`).
-* Boot, recovery, system, userdata (to be installed by `fastboot -v -w update image-....zip`, that also wipes userdata).
+* Booloader - to be installed by `fastboot -v flash bootloader bootloader-maguro-....img`.
+* Radio - to be installed by `fastboot -v flash radio radio-maguro-....img`.
+* Boot, recovery, system, userdata - to be installed by `fastboot -v -w update image-....zip` (that also wipes userdata).
+
+Before installing the image,
+unlock the bootloader by `fastboot -v oem unlock` (also erases data),
+finally lock it again by `fastboot -v oem lock`.
+
+For good measure, reboot after each step by `fastboot -v reboot-bootloader`.
 
 ## Custom System and Recovery
 
