@@ -8,10 +8,22 @@ Specs: [GSMArena](https://www.gsmarena.com/samsung_galaxy_nexus_i9250-4219.php).
 
 Factory images: [Google, 4.3 (JWR66Y)](https://developers.google.com/android/images#yakju).
 
+[TWRP recovery](https://dl.twrp.me/maguro/) (unmaintained after 3.4.0).
+
 LineageOS support (unmaintained):
 [info](https://wiki.lineageos.org/devices/maguro),
 [installation](https://wiki.lineageos.org/devices/maguro/install),
 [Google apps as Open GApps](https://wiki.lineageos.org/gapps.html).
+
+Unlegacy Android (apparently unmaintained):
+[based on Android 7.1](https://builds.unlegacy-android.org/aosp-7.1/tuna/),
+with latest build from June 2020;
+[XDA thread](https://forum.xda-developers.com/t/rom-aosp-4-4-6-0-7-1-unlegacy-android-project.3334574/).
+
+DivestOS (unofficial fork of LineageOS) - system and recovery:
+[based on LineageOS 14.1 (based on Android 7.1)](https://divestos.org/index.php?page=devices&base=LineageOS#device-maguro),
+apparently built monthly;
+[XDA thread](https://forum.xda-developers.com/t/rom-divestos-14-1-for-maguro-toro-toroplus.4249415/).
 
 Open GApps:
 [pico](https://github.com/opengapps/opengapps/wiki/Package-Comparison),
